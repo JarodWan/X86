@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt with Passwall Mosdns AdguardHome
+name: Build OpenWrt with Full Mosdns SmartDNS and AdguardHome
 
 on:
   repository_dispatch:
