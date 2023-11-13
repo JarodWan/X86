@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt Full_mosdns_smartdns_adg
+name: Build OpenWrt full_mosdns_smartdns_adg
 
 on:
   repository_dispatch:
