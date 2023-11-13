@@ -176,9 +176,9 @@ jobs:
 #        files: ${{ env.FIRMWARE }}/*
 
     - name: Delete workflow runs
-      uses: JarodWan/delete-workflow-runs@v2
+      uses: JarodWan/delete-workflow-runs@main
       with:
-        retain_days: 1
+        retain_days: 15
         keep_minimum_runs: 3
 
     - name: Remove old Releases
